@@ -1,12 +1,12 @@
 var starXPos = [];
 var starYPos = [];
 var star = "⭐️";
-var starTotal = 100;
+var starTotal = 1000;
 
 var planetXPos = [];
 var planetYPos = [];
 var planet = "🪐";
-var planetTotal = 3;
+var planetTotal = 6;
 var planetFound = 0;
 
 setup = function() {
