@@ -22,8 +22,23 @@ setup = function() {
 };
 
 
-draw = function()
-{ if(keyPressed){ if(key == 'r'){ reset(); } } display(); }
+draw = function(){ 
+  
+  if(keyPressed){ 
+    if(key == 'r'){ reset(); } 
+      if(key == 't'){ for(var i = 0; i < 5; i++){
+    starXPos.push(random(0,600));
+    starYPos.push(random(0,400));
+    starSizes.push(random(12,30)); // random size
+  }
+ } 
+    } 
+    
+    
+    display(); 
+    
+    
+    }
 
 
 
